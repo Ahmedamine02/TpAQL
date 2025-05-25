@@ -10,6 +10,16 @@ public class User {
         this.name = name;
     }
 
+    public User() {
+
+    }
+
     public long getId() { return id; }
     public String getName() { return name; }
+
+    public void setName(String alice) {
+    }
+
+    public void setEmail(String mail) {
+    }
 }
